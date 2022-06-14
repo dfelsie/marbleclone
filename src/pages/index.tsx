@@ -1,0 +1,34 @@
+import {
+  Link as ChakraLink,
+  Text,
+  Code,
+  List,
+  ListIcon,
+  ListItem,
+  Flex,
+} from "@chakra-ui/react";
+import { CheckCircleIcon, LinkIcon } from "@chakra-ui/icons";
+
+import { Hero } from "../components/Hero";
+import { Container } from "../components/Container";
+import { Main } from "../components/Main";
+import { DarkModeSwitch } from "../components/DarkModeSwitch";
+import { CTA } from "../components/CTA";
+import { Footer } from "../components/Footer";
+import MyNavbar from "../components/MyNavbar";
+import FirstSec from "../components/FirstSec";
+import SecondSec from "../components/SecondSec";
+import MyHero from "../components/MyHero";
+import InfoSec from "../components/InfoSec";
+
+const Index = () => (
+  <Container minH="100vh" backgroundColor="black" color="white">
+    <MyNavbar></MyNavbar>
+    <MyHero />
+    <FirstSec />
+    <SecondSec />
+    <InfoSec />
+  </Container>
+);
+
+export default Index;
