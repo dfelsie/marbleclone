@@ -24,7 +24,12 @@ import MyFooter from "../components/MyFooter";
 import SecondVideoHero from "../components/SecondVideoHero";
 
 const Index = () => (
-  <Container minH="100vh" backgroundColor="black" color="white">
+  <Container
+    minH="100vh"
+    h={"fit-content"}
+    backgroundColor="blackAlpha.900"
+    color="white"
+  >
     <MyNavbar></MyNavbar>
     <MyHero />
     <FirstSec />

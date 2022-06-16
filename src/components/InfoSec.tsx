@@ -23,9 +23,9 @@ export default function InfoSec({}: Props) {
       h={"1200px"}
       justifyContent={"space-between"}
       px={["25px", "5%"]}
-      py={"50px"}
+      py={"75px"}
     >
-      <Flex flexDir={["column", "row"]}>
+      <Flex flexDir={["column", "column", "row"]} mt={"25px"}>
         <Heading fontSize={"5rem"}>Help Us Reverse Climate Change</Heading>
         <Text fontSize="18px" w={"50%"}>
           We are assembling a network of leading experts, partners and top

@@ -30,31 +30,58 @@ const secondListOfFooterLinks = [
 export default function MyFooter({}: Props) {
   return (
     <Flex h={"1000px"} flexDir={"column"} w={"100%"} px={["25px", "5%"]}>
-      <Flex h={"475px"} flexDir={"column"} justifyContent="center" w={"50%"}>
+      <Flex
+        h={"475px"}
+        flexDir={"column"}
+        justifyContent="center"
+        w={["100%", "75%", "50%"]}
+      >
         <Heading fontSize={"14px"}>SIGN UP TO OUR NEWSLETTER</Heading>
-        <Flex h={"200px"} alignItems={"end"} pb={"25px"}>
+        <Flex h={["200px"]} alignItems={"end"} pb={"25px"}>
           <Input
             type={"text"}
-            h={"100px"}
-            fontSize={"46px"}
+            h={["75px", "75px", "100px"]}
+            fontSize={["32px", "46px"]}
             placeholder={"you@email.com"}
           />
           <Button>{">>"}</Button>
         </Flex>
         <Checkbox colorScheme="black">
-          I have read and accept the Terms and Privacy
+          I have read and accept the Terms and Privacy.
         </Checkbox>
       </Flex>
       <Flex h={"500px"} flexDir={"column"} w={"100%"} textAlign={"left"}>
         <Flex justifyContent={"space-between"}>
-          <Flex flexDir={"column"} w={"25%"} justifyContent={"space-between"}>
+          <Flex flexDir={"column"} w={"33%"} justifyContent={"space-between"}>
             Marble
-            <Flex>
-              <Button>Apply Now!</Button>
-              <Button>Apply Now!</Button>
+            <Flex
+              justifyContent={"space-around"}
+              flexDir={["column", "column", "row"]}
+            >
+              <Button
+                bgColor={"#2b2b2b"}
+                borderRadius={"50px"}
+                height={"50px"}
+                w={"155px"}
+                fontSize={"14px"}
+                textTransform={"uppercase"}
+              >
+                Apply Now!
+              </Button>
+              <Button
+                textTransform={"uppercase"}
+                fontSize={"14px"}
+                bgColor={"white"}
+                color={"black"}
+                borderRadius={"50px"}
+                height={"50px"}
+                w={["155px", "205px", "255px"]}
+              >
+                Apply Now!
+              </Button>
             </Flex>
           </Flex>
-          <Flex w={"33%"} justifyContent={"space-between"}>
+          <Flex w={["55%", "55%", "40%"]} justifyContent={"space-between"}>
             <Flex flexDir={"column"} justifyContent={"space-between"}>
               <Text mb={"20px"} fontSize={"16px"} textColor={"gray"}>
                 About
@@ -67,7 +94,7 @@ export default function MyFooter({}: Props) {
                   </ListItem>
                 ))}
               </List>
-              <Text mt={"75px"} fontSize={"16px"} color={"gray"}>
+              <Text mt={"100px"} fontSize={"16px"} color={"gray"}>
                 <ul color="white">Privacy and Terms</ul>
               </Text>
             </Flex>

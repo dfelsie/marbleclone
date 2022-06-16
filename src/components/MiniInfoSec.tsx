@@ -27,7 +27,18 @@ export default function MiniInfoSec({}: Props) {
         <Heading fontSize={"2rem"}>My Heading</Heading>
         <Text fontSize={"1.2rem"}>Subtext</Text>
       </Flex>
-      <Button my={"auto"}>Stuff</Button>
+      <Button
+        bgColor={"#2b2b2b"}
+        borderRadius={"50px"}
+        height={"50px"}
+        w={"250px"}
+        fontSize={"14px"}
+        color={"white"}
+        textTransform={"uppercase"}
+        my={"auto"}
+      >
+        Stuff
+      </Button>
     </Flex>
   );
 }
