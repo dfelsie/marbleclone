@@ -13,12 +13,21 @@ import {
 type Props = {};
 export default function MiniInfoSec({}: Props) {
   return (
-    <Flex>
-      <Flex flexDir={"column"}>
-        <Heading>My Heading</Heading>
-        <Text>Subtext</Text>
+    <Flex
+      h={"150px"}
+      borderBottom={".25px solid lightgray"}
+      justifyContent={"space-between"}
+    >
+      <Flex
+        flexDir={"column"}
+        my={"auto"}
+        h={"50%"}
+        justifyContent={"space-between"}
+      >
+        <Heading fontSize={"2rem"}>My Heading</Heading>
+        <Text fontSize={"1.2rem"}>Subtext</Text>
       </Flex>
-      <Button>Stuff</Button>
+      <Button my={"auto"}>Stuff</Button>
     </Flex>
   );
 }

@@ -20,6 +20,8 @@ import FirstSec from "../components/FirstSec";
 import SecondSec from "../components/SecondSec";
 import MyHero from "../components/MyHero";
 import InfoSec from "../components/InfoSec";
+import MyFooter from "../components/MyFooter";
+import SecondVideoHero from "../components/SecondVideoHero";
 
 const Index = () => (
   <Container minH="100vh" backgroundColor="black" color="white">
@@ -28,6 +30,8 @@ const Index = () => (
     <FirstSec />
     <SecondSec />
     <InfoSec />
+    <SecondVideoHero />
+    <MyFooter />
   </Container>
 );
 

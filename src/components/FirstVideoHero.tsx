@@ -11,15 +11,11 @@ import {
 } from "@chakra-ui/react";
 
 type Props = {};
-export default function BackgroundVideoHero({}: Props) {
+export default function SecondVideoHero({}: Props) {
   return (
-    <Box>
+    <Box h={"850px"}>
       {" "}
-      <Heading>Big Problem</Heading>
-      <Flex>
-        <Text>Bla Bla Bla</Text>
-        <Button>Apply Now</Button>
-      </Flex>
+      <video muted loop src="/assets/videos/fancymarbvid.mp4" />{" "}
     </Box>
   );
 }
