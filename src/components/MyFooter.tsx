@@ -116,7 +116,13 @@ export default function MyFooter({}: Props) {
                 ))}
               </List>
               <Text mt={"75px"} fontSize={"16px"} color={"gray"}>
-                Made by <ul color="white">Daniel Felsenthal</ul>
+                Made by{" "}
+                <a
+                  href="https://www.linkedin.com/in/daniel-felsenthal-697797213/"
+                  style={{ textDecoration: "underline" }}
+                >
+                  Daniel Felsenthal
+                </a>
               </Text>
             </Flex>
           </Flex>
