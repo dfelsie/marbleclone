@@ -32,5 +32,7 @@ yarn-error.log*
 
 **/MyButton.tsx
 
+**/AniTestOne
+
 # vercel
 .vercel

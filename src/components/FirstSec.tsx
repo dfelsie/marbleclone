@@ -9,7 +9,7 @@ import {
   ListItem,
   Button,
 } from "@chakra-ui/react";
-import RightArrowBox from "./RightArrowBox";
+import RightArrowBox from "./RightArrowBox/RightArrowBox";
 
 type Props = {};
 export default function FirstSec({}: Props) {
@@ -19,9 +19,10 @@ export default function FirstSec({}: Props) {
       h={"750px"}
       flexDir={["column", "column", "row"]}
       px={["20px", "25px", "5%"]}
+      pt={"100px"}
     >
       <Flex w={"50%"}>Image Placeholder</Flex>
-      <Flex flexDir={"column"} w={["80%", "65%", "50%"]} h={"66%"}>
+      <Flex flexDir={"column"} w={["80%", "65%", "50%"]} h={"80%"}>
         <Heading fontSize={["4rem", "4rem", "6rem"]}>My Heading</Heading>
         <Box
           textColor={"lightgray"}

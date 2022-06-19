@@ -9,7 +9,7 @@ import {
   ListItem,
   Button,
 } from "@chakra-ui/react";
-import RightArrowBox from "../RightArrowBox";
+import RightArrowBox from "../RightArrowBox/RightArrowBox";
 
 type Props = {};
 export default function ImgTopSec({}: Props) {
