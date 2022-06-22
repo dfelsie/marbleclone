@@ -19,11 +19,15 @@ export default function SecondVideoHero({}: Props) {
         muted
         loop
         src="/assets/videos/fancymarbvidbot.mp4"
-      />{" "}
+      />
       <Box w={"100%"} pos={"absolute"} top={"25px"}>
-        <Flex w={"100"} mx={"5%"} flexDir={["column", "column", "row"]}>
+        <Flex
+          w={"100"}
+          mx={"5%"}
+          flexDir={["column", "column", "column", "row"]}
+        >
           <Box>
-            <Heading fontSize={["40px", "40px", "7rem"]}>
+            <Heading fontSize={["40px", "40px", "6rem", "7rem"]} w={"100%"}>
               Ready To Work On The Biggest Problem Of All Time?
             </Heading>
           </Box>

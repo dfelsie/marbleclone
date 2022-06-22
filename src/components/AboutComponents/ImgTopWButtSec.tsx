@@ -23,9 +23,11 @@ export default function ImgTopWButtSec({}: Props) {
       <Center h={"25%"} w={"80%"}>
         <Text textAlign={"center"}>Image Placeholder</Text>
       </Center>
-      <Flex w={"100%"} flexDir={["column", "column", "row"]}>
+      <Flex w={"100%"} flexDir={["column", "column", "column", "row"]}>
         <Box w={"60%"}>
-          <Heading fontSize={["4rem", "4rem", "7rem"]}>My Heading</Heading>
+          <Heading fontSize={["4rem", "4rem", "6rem", "7rem"]}>
+            My Heading
+          </Heading>
         </Box>
         <Flex flexDir={"column"} w={["80%", "65%", "40%"]} h={"66%"}>
           <Box

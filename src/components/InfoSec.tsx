@@ -12,8 +12,8 @@ import {
 import MiniInfoSec from "./MiniInfoSec";
 
 type Props = {};
+let ary = [0, 0, 0, 0];
 export default function InfoSec({}: Props) {
-  let ary = [0, 0, 0, 0];
   return (
     <Flex
       flexDir={"column"}
@@ -25,7 +25,7 @@ export default function InfoSec({}: Props) {
       px={["25px", "5%"]}
       py={"75px"}
     >
-      <Flex flexDir={["column", "column", "row"]} mt={"25px"}>
+      <Flex flexDir={["column", "column", "column", "row"]} mt={"25px"}>
         <Heading fontSize={"5rem"}>Help Us Reverse Climate Change</Heading>
         <Text fontSize="18px" w={"50%"}>
           We are assembling a network of leading experts, partners and top

@@ -12,18 +12,27 @@ import {
 import RightArrowBox from "../RightArrowBox/RightArrowBox";
 
 type Props = {};
-export default function ImgTopSec({}: Props) {
+export default function LShapedTxtHero({}: Props) {
   return (
-    <Flex w={"100%"} flexDir={["column", "column", "row"]} h={"95%"}>
+    <Flex
+      w={"100%"}
+      flexDir={["column", "column", "column", "row"]}
+      h={"650px"}
+      px={["20px", "25px", "3%", "5%"]}
+      pt={"100px"}
+    >
       <Box w={"60%"}>
-        <Heading fontSize={["4rem", "4rem", "7rem"]}>My Heading</Heading>
+        <Heading fontSize={["4rem", "4rem", "6rem", "7rem"]}>
+          My Heading
+        </Heading>
       </Box>
       <Flex flexDir={"column"} w={["80%", "65%", "40%"]} h={"95%"}>
         <Box
-          textColor={"blackAlpha.800"}
           my={"20px"}
           w={["100%", "100%", "60%"]}
           fontSize={"18px"}
+          ml={"5%"}
+          textColor={"lightgray"}
         >
           <Text>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.

@@ -9,25 +9,30 @@ import {
   ListItem,
   Button,
 } from "@chakra-ui/react";
-import RightArrowBox from "./RightArrowBox/RightArrowBox";
+import RightArrowBox from "../RightArrowBox/RightArrowBox";
+import AniButtonWhite from "../AniButton/AniButtonWhite";
 
 type Props = {};
-export default function FirstSec({}: Props) {
+export default function LShapedTxtHero({}: Props) {
   return (
     <Flex
       w={"100%"}
-      h={"750px"}
       flexDir={["column", "column", "column", "row"]}
-      px={["20px", "25px", "5%"]}
+      h={"650px"}
+      px={["20px", "25px", "3%", "5%"]}
       pt={"100px"}
     >
-      <Flex flexDir={"column"} w={["80%", "65%", "50%"]} h={"80%"}>
-        <Heading fontSize={["4rem", "4rem", "6rem"]}>My Heading</Heading>
+      <Box w={"60%"}>
+        <Heading fontSize={["4rem", "4rem", "6rem", "7rem"]}>
+          My Heading
+        </Heading>
+      </Box>
+      <Flex flexDir={"column"} w={["80%", "65%", "40%"]} h={"95%"} ml={"5%"}>
         <Box
-          textColor={"lightgray"}
           my={"20px"}
           w={["100%", "100%", "60%"]}
           fontSize={"18px"}
+          textColor={"lightgray"}
         >
           <Text>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -41,20 +46,8 @@ export default function FirstSec({}: Props) {
             All Gaul is divided into three parts.
           </Text>
         </Box>
-        <Button
-          m={["auto", "auto,", "0"]}
-          bgColor={"#2b2b2b"}
-          borderRadius={"50px"}
-          height={"50px"}
-          w={"200px"}
-          fontSize={"14px"}
-          textTransform={"uppercase"}
-        >
-          Apply Now
-          <RightArrowBox />
-        </Button>
+        <AniButtonWhite />
       </Flex>
-      <Flex w={"50%"}>Image Placeholder</Flex>
     </Flex>
   );
 }

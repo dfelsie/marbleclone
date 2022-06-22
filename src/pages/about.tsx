@@ -9,6 +9,11 @@ import SecondVideoHero from "../components/SecondVideoHero";
 import FirstVideoHero from "../components/FirstVideoHero";
 import ImgTopSec from "../components/AboutComponents/ImgTopSec";
 import HugeImageHero from "../components/AboutComponents/HugeImageHero";
+import LShapedTxtHero from "../components/AboutComponents/LShapedTxtHero";
+import MarqueeWCarouselHero from "../components/AboutComponents/MarqueeWCarouselHero";
+import LShapedTxtHeroWButt from "../components/AboutComponents/LShapedTxtHeroWButt";
+import InfoSecDescHero from "../components/AboutComponents/InfoSecDescHero";
+import SwitchableTextHero from "../components/AboutComponents/SwitchableTextHero/SwitchableTextHero";
 
 const About = () => (
   <Container
@@ -21,8 +26,11 @@ const About = () => (
     <FirstVideoHero />
     <ImgTopSec />
     <HugeImageHero />
-    <SecondSec />
-    <InfoSec />
+    <LShapedTxtHero />
+    <MarqueeWCarouselHero />
+    <LShapedTxtHeroWButt />
+    <InfoSecDescHero />
+    <SwitchableTextHero />
     <SecondVideoHero />
     <MyFooter />
   </Container>

@@ -17,7 +17,7 @@ export default function FirstSec({}: Props) {
     <Flex
       w={"100%"}
       h={"750px"}
-      flexDir={["column", "column", "row"]}
+      flexDir={["column", "column", "column", "row"]}
       px={["20px", "25px", "5%"]}
       pt={"100px"}
     >

@@ -56,7 +56,7 @@ export default function MyFooter({}: Props) {
             Marble
             <Flex
               justifyContent={"space-around"}
-              flexDir={["column", "column", "row"]}
+              flexDir={["column", "column", "column", "row"]}
             >
               <Button
                 bgColor={"#2b2b2b"}
@@ -95,7 +95,7 @@ export default function MyFooter({}: Props) {
                 ))}
               </List>
               <Text mt={"100px"} fontSize={"16px"} color={"gray"}>
-                <ul color="white">Privacy and Terms</ul>
+                Privacy and Terms
               </Text>
             </Flex>
             <Flex flexDir={"column"} justifyContent="space-between">
