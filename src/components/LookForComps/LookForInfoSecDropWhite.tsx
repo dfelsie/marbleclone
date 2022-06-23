@@ -11,6 +11,6 @@ import {
 } from "@chakra-ui/react";
 
 type Props = {};
-export default function MiniInfoSecDropDown({}: Props) {
-  return <Box> MiniInfoSecDropDown </Box>;
+export default function LookForInfoSecDropWhite({}: Props) {
+  return <Box> LookForInfoSecDropAlt </Box>;
 }

@@ -2,7 +2,7 @@ import { ChevronDownIcon } from "@chakra-ui/icons";
 import { Flex, Text, useMediaQuery } from "@chakra-ui/react";
 import { AnimatePresence, motion } from "framer-motion";
 import React, { useState } from "react";
-import FramerChakraRotatingChevron from "./FramerChakraRotatingChevron";
+import FramerChakraRotatingChevron from "../LookForComps/DropDowns/FramerChakraRotatingChevron";
 
 type Props = {
   title: string;
@@ -43,7 +43,7 @@ export default function ExpandingDetailCardWithDate({
         <Text ml={"4px"}>{date}:</Text>
         <Text>{title}</Text>
         <FramerChakraRotatingChevron
-          visible={visible}
+          visibleNum={visible}
           setVisibility={setVisible}
         />
       </Flex>
