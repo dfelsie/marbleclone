@@ -1,0 +1,11 @@
+#chevronSymbol{
+font-size: 36px;
+transition: ease-in-out .2s;
+}
+
+#chevronSymbolRotated{
+font-size: 36px;
+rotate: -90deg;
+transition: ease-in-out .2s;
+
+}

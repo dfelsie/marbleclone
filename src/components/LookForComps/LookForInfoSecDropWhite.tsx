@@ -12,5 +12,5 @@ import {
 
 type Props = {};
 export default function LookForInfoSecDropWhite({}: Props) {
-  return <Box> LookForInfoSecDropAlt </Box>;
+  return <Box> LookForInfoSecDropWhite </Box>;
 }

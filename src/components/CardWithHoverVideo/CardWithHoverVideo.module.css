@@ -1,5 +1,9 @@
 #cardVideoCover:hover{
     opacity: 0;
+
+}
+
+#cardVideoCover{
     transition: .2s ease-in-out;
 
 }

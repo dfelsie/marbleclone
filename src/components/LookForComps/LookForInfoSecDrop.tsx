@@ -8,15 +8,20 @@ import {
   List,
   ListItem,
   Button,
+  useMediaQuery,
 } from "@chakra-ui/react";
 import MiniInfoSec from "../MiniInfoSec";
 import AboutMiniInfoSec from "../AboutComponents/AboutMiniInfoSec";
 import MiniInfoSecDropDown from "./MiniInfoSecDropDown";
+import { Variants } from "framer-motion";
 
 type Props = {};
 export default function LookForInfoSecDrop({}: Props) {
   let ary = [0, 0, 0, 0, 0, 0];
-  const [visibleNum, setVisibleNum] = useState(0);
+  const [visibleNum, setVisibleNum] = useState(-1);
+  const [isLargerThan960] = useMediaQuery("(min-width: 960px)");
+
+  const [visible, setVisible] = useState(false);
 
   return (
     <Flex
@@ -37,6 +42,7 @@ export default function LookForInfoSecDrop({}: Props) {
         <List
           display={"flex"}
           flexDir={"column"}
+          h={"100%"}
           borderTop={".25px solid lightgray"}
         >
           {ary.map((_, i) => (
