@@ -8,23 +8,18 @@ import {
   List,
   ListItem,
   Button,
-  useMediaQuery,
 } from "@chakra-ui/react";
-import MiniInfoSec from "../MiniInfoSec";
-import AboutMiniInfoSec from "../AboutComponents/AboutMiniInfoSec";
-import MiniInfoSecDropDown from "./MiniInfoSecDropDown";
-import { Variants } from "framer-motion";
+import DropdownTextSec from "./DropdownTextSec/DropdownTextSec";
+import DropdownTextSecWButton from "./DropdownTextSec/DropdownTexSecWButton";
 
 type Props = {};
-export default function LookForInfoSecDrop({}: Props) {
-  let ary = [0, 0, 0, 0, 0, 0];
-  const [visibleNum, setVisibleNum] = useState(-1);
-  const [isLargerThan960] = useMediaQuery("(min-width: 960px)");
-
-  const [visible, setVisible] = useState(false);
+const ary = [0, 0, 0, 0, 0];
+export default function DropDownTextHeroWButton({}: Props) {
+  const [rotatedNum, setRotatedNum] = useState(-1);
 
   return (
     <Flex
+      borderBottom={".25px solid lightgray"}
       flexDir={["column", "column", "row", "row"]}
       w={"100%"}
       h={"1000px"}
@@ -39,22 +34,21 @@ export default function LookForInfoSecDrop({}: Props) {
         </Heading>
       </Box>
       <Box w={"65%"} h={["100%", "100%", "65%", "65%"]} mt={[0, "5%"]}>
-        <List
+        <Flex
           display={"flex"}
           flexDir={"column"}
           h={"100%"}
           borderTop={".25px solid lightgray"}
         >
-          {ary.map((_, i) => (
-            <ListItem key={i}>
-              <MiniInfoSecDropDown
-                setVisibleNum={setVisibleNum}
-                visibleNum={visibleNum}
-                dropdownNum={i}
-              />
-            </ListItem>
+          {ary.map((_, index) => (
+            <DropdownTextSecWButton
+              setRotatedNum={setRotatedNum}
+              rotatedNum={rotatedNum}
+              dropdownNum={index}
+              key={`dropdowntextsec${index}`}
+            />
           ))}
-        </List>
+        </Flex>
       </Box>
     </Flex>
   );

@@ -19,7 +19,7 @@ const About = () => (
   <Container
     minH="100vh"
     h={"fit-content"}
-    backgroundColor="blackAlpha.900"
+    backgroundColor="#0e0e0e"
     color="white"
   >
     <MyNavbar />

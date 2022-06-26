@@ -10,6 +10,7 @@ import {
   Button,
 } from "@chakra-ui/react";
 import RotatingChevron from "../RotatingChevron/RotatingChevron";
+import ChevronButton from "../ChevronButton/ChevronButton";
 
 type Props = {
   rotatedNum: number;
@@ -19,14 +20,14 @@ type Props = {
   dropdownText: string;
 };
 
-DropdownTextSec.defaultProps = {
+DropdownTextSecWButton.defaultProps = {
   headerText: "Header Text",
   dropdownText: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
   Reprehenderit id deserunt, hic ratione architecto labore perferendis
   alias inventore, laborum doloribus quos natus aut cumque eligendi
   molestiae omnis? Distinctio, molestias eligendi.`,
 };
-export default function DropdownTextSec({
+export default function DropdownTextSecWButton({
   rotatedNum,
   setRotatedNum,
   dropdownNum,
@@ -53,7 +54,7 @@ export default function DropdownTextSec({
           </Text>
         </Box>
       </Flex>
-      <RotatingChevron
+      <ChevronButton
         rotatedNum={rotatedNum}
         setRotatedNum={setRotatedNum}
         chevronNum={dropdownNum}

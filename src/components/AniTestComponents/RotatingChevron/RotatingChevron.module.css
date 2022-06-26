@@ -1,6 +1,8 @@
 #chevronSymbol{
 font-size: 36px;
 transition: ease-in-out .2s;
+font-weight: lighter;
+
 }
 
 #chevronSymbolRotated{

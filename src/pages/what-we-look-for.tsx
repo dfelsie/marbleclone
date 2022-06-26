@@ -14,6 +14,7 @@ import MyFooter from "../components/MyFooter";
 import LookForInfoSect from "../components/LookForComps/LookForInfoSecDropWhite";
 import { Container } from "../components/Container";
 import LookForInfoSecDrop from "../components/LookForComps/LookForInfoSecDrop";
+import DropDownTextSecHero from "../components/AniTestComponents/DropDownTextSecHero";
 
 type Props = {};
 export default function Whatwelookfor({}: Props) {
@@ -21,11 +22,12 @@ export default function Whatwelookfor({}: Props) {
     <Container
       minH="100vh"
       h={"fit-content"}
-      backgroundColor="blackAlpha.900"
+      backgroundColor="#0e0e0e"
       color="white"
     >
       <MyNavbar />
       <LookForInfoSecDrop />
+      <DropDownTextSecHero />
       <MyFooter />
     </Container>
   );
