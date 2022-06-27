@@ -15,6 +15,8 @@ import LookForInfoSect from "../components/LookForComps/LookForInfoSecDropWhite"
 import { Container } from "../components/Container";
 import LookForInfoSecDrop from "../components/LookForComps/LookForInfoSecDrop";
 import DropDownTextSecHero from "../components/AniTestComponents/DropDownTextSecHero";
+import DropdownTextSecWButton from "../components/AniTestComponents/DropdownTextSec/DropdownTexSecWButton";
+import DropDownTextHeroWButton from "../components/AniTestComponents/DropDownTextHeroWButton";
 
 type Props = {};
 export default function Whatwelookfor({}: Props) {
@@ -26,8 +28,9 @@ export default function Whatwelookfor({}: Props) {
       color="white"
     >
       <MyNavbar />
-      <LookForInfoSecDrop />
-      <DropDownTextSecHero />
+      {/*       <LookForInfoSecDrop />
+       */}{" "}
+      <DropDownTextHeroWButton />
       <MyFooter />
     </Container>
   );
