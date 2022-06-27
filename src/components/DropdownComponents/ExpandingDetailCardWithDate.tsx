@@ -42,10 +42,10 @@ export default function ExpandingDetailCardWithDate({
       <Flex justifyContent={"space-between"}>
         <Text ml={"4px"}>{date}:</Text>
         <Text>{title}</Text>
-        <FramerChakraRotatingChevron
+        {/* <FramerChakraRotatingChevron
           visibleNum={visible}
           setVisibility={setVisible}
-        />
+        /> */}
       </Flex>
       <AnimatePresence>
         <motion.div
