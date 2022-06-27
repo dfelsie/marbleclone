@@ -45,7 +45,9 @@ export default function DropDownTextHeroWButton({}: Props) {
               setRotatedNum={setRotatedNum}
               rotatedNum={rotatedNum}
               dropdownNum={index}
-              key={`dropdowntextsec${index}`}
+              headerText={""}
+              dropdownText={""}
+              //key={`dropdowntextsec${index}`}
             />
           ))}
         </Flex>

@@ -9,7 +9,6 @@ import {
   ListItem,
   Button,
 } from "@chakra-ui/react";
-import AniTestOne from "../components/AniComponents/AniTestOne/AniTestOne";
 import AniButtonTest from "../components/AniButton/AniButtonTest";
 import HoverCardHero from "../components/CardWithHoverVideo/HoverCardHero";
 import RotatingChevron from "../components/AniTestComponents/RotatingChevron/RotatingChevron";
