@@ -48,12 +48,12 @@ export default function MyNavbar({}: Props) {
             </Link>
           </ListItem>
           <ListItem h={"fit-content"} my={"auto"}>
-            <Link href="/" textTransform={"uppercase"}>
+            <Link href="/how-it-works" textTransform={"uppercase"}>
               How it Works
             </Link>
           </ListItem>
           <ListItem h={"fit-content"} my={"auto"}>
-            <Link href="/" textTransform={"uppercase"}>
+            <Link href="/what-we-look-for" textTransform={"uppercase"}>
               What We Look For
             </Link>
           </ListItem>

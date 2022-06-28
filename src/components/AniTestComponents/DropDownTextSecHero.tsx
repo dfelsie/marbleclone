@@ -29,7 +29,7 @@ export default function DropDownTextSecHero({}: Props) {
     >
       <Box w={["100%", "100%", "30%", "30%"]} h={"50%"} mt={["5%"]}>
         <Heading fontSize={["2rem", "3rem", "5rem"]}>
-          Why this night of all nights?
+          Some generic subtext to be replaced later.
         </Heading>
       </Box>
       <Box w={"65%"} h={["100%", "100%", "65%", "65%"]} mt={[0, "5%"]}>

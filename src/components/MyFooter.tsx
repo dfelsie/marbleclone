@@ -11,6 +11,7 @@ import {
   Input,
   Checkbox,
 } from "@chakra-ui/react";
+import styles from "./MyFooter.module.css";
 
 type Props = {};
 const listOfFooterLinks = [
@@ -46,7 +47,7 @@ export default function MyFooter({}: Props) {
           />
           <Button>{">>"}</Button>
         </Flex>
-        <Checkbox colorScheme="black">
+        <Checkbox colorScheme="black" defaultChecked={false}>
           I have read and accept the Terms and Privacy.
         </Checkbox>
       </Flex>
@@ -90,7 +91,7 @@ export default function MyFooter({}: Props) {
               <List display={"flex"} flexDir={"column"} fontSize={"19px"}>
                 {listOfFooterLinks.map((link, i) => (
                   <ListItem key={i}>
-                    <Text>{link}</Text>
+                    <Text className={styles.footerLink}>{link}</Text>
                   </ListItem>
                 ))}
               </List>
@@ -108,6 +109,7 @@ export default function MyFooter({}: Props) {
                   <ListItem key={i}>
                     <Text
                       fontSize={"19px"}
+                      className={styles.footerLink}
                       textColor={i === 3 ? "black" : "white"}
                     >
                       {link}

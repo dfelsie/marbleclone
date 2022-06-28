@@ -18,10 +18,9 @@ import DropDownTextSecHero from "../components/AniTestComponents/DropDownTextSec
 import DropdownTextSecWButton from "../components/AniTestComponents/DropdownTextSec/DropdownTexSecWButton";
 import DropDownTextHeroWButton from "../components/AniTestComponents/DropDownTextHeroWButton";
 import FirstVideoHero from "../components/FirstVideoHero";
-import MeetTheTeamRowsHero from "../components/MeetTheTeamRowsHero/MeetTheTeamRowsHero";
 
 type Props = {};
-export default function Whatwelookfor({}: Props) {
+export default function HowItWorks({}: Props) {
   return (
     <Container
       minH="100vh"
@@ -34,8 +33,6 @@ export default function Whatwelookfor({}: Props) {
        */}{" "}
       <FirstVideoHero />
       <DropDownTextHeroWButton />
-      <DropDownTextHeroWButton bgColor="white" textColor="#0e0e0e" />
-      <MeetTheTeamRowsHero />
       <MyFooter />
     </Container>
   );

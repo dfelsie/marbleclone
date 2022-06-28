@@ -12,9 +12,20 @@ import {
 import DropdownTextSec from "./DropdownTextSec/DropdownTextSec";
 import DropdownTextSecWButton from "./DropdownTextSec/DropdownTexSecWButton";
 
-type Props = {};
+type Props = {
+  bgColor?: string;
+  textColor?: string;
+};
 const ary = [0, 0, 0, 0, 0];
-export default function DropDownTextHeroWButton({}: Props) {
+
+const lor =
+  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quasi dolorum praesentium quibusdam eos autem harum rem doloremque veritatis! Dolores rem ut repellat amet ratione laborum iure unde nesciunt praesentium!";
+
+DropDownTextHeroWButton.defaultProps = {
+  bgColor: "#0e0e0e",
+  textColor: "white",
+};
+export default function DropDownTextHeroWButton({ bgColor, textColor }: Props) {
   const [rotatedNum, setRotatedNum] = useState(-1);
 
   return (
@@ -23,14 +34,14 @@ export default function DropDownTextHeroWButton({}: Props) {
       flexDir={["column", "column", "row", "row"]}
       w={"100%"}
       h={"1000px"}
-      color={"white"}
-      bgColor={"#0e0e0e"}
+      color={textColor}
+      bgColor={bgColor}
       px={["25px", "4%"]}
       justifyContent={"space-between"}
     >
       <Box w={["100%", "100%", "30%", "30%"]} h={"50%"} mt={["5%"]}>
         <Heading fontSize={["2rem", "3rem", "5rem"]}>
-          Why this night of all nights?
+          Some generic subtext to be replaced later.
         </Heading>
       </Box>
       <Box w={"65%"} h={["100%", "100%", "65%", "65%"]} mt={[0, "5%"]}>
@@ -45,8 +56,8 @@ export default function DropDownTextHeroWButton({}: Props) {
               setRotatedNum={setRotatedNum}
               rotatedNum={rotatedNum}
               dropdownNum={index}
-              headerText={""}
-              dropdownText={""}
+              headerText={"Subtext"}
+              dropdownText={lor}
               //key={`dropdowntextsec${index}`}
             />
           ))}

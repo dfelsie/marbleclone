@@ -37,12 +37,12 @@ export default function DropdownTextSecWButton({
   const isRotated = rotatedNum === dropdownNum;
   return (
     <Flex
-      h={isRotated ? "270px" : "90px"}
       borderBottom={".25px solid lightgray"}
       justifyContent={"space-between"}
+      h={isRotated ? "270px" : "90px"}
+      px={"10px"}
       overflow={"hidden"}
       transition={".2s ease-in-out"}
-      px={"10px"}
     >
       <Flex flexDir={"column"} h={"100%"}>
         <Text h={"fit-content"} fontSize={"1.4rem"} mt={"25px"}>
