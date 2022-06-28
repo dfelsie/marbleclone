@@ -18,6 +18,7 @@ import DropDownTextSecHero from "../components/AniTestComponents/DropDownTextSec
 import DropdownTextSecWButton from "../components/AniTestComponents/DropdownTextSec/DropdownTexSecWButton";
 import DropDownTextHeroWButton from "../components/AniTestComponents/DropDownTextHeroWButton";
 import FirstVideoHero from "../components/FirstVideoHero";
+import HoverCardSec from "../components/CardWithHoverVideo/HoverCardSec";
 
 type Props = {};
 export default function HowItWorks({}: Props) {
@@ -32,6 +33,7 @@ export default function HowItWorks({}: Props) {
       {/*       <LookForInfoSecDrop />
        */}{" "}
       <FirstVideoHero />
+      <HoverCardSec />
       <DropDownTextHeroWButton />
       <MyFooter />
     </Container>

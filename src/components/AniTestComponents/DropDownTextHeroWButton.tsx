@@ -52,14 +52,15 @@ export default function DropDownTextHeroWButton({ bgColor, textColor }: Props) {
           borderTop={".25px solid lightgray"}
         >
           {ary.map((_, index) => (
-            <DropdownTextSecWButton
-              setRotatedNum={setRotatedNum}
-              rotatedNum={rotatedNum}
-              dropdownNum={index}
-              headerText={"Subtext"}
-              dropdownText={lor}
-              //key={`dropdowntextsec${index}`}
-            />
+            <Box key={`dropdownsecnum${index}`}>
+              <DropdownTextSecWButton
+                setRotatedNum={setRotatedNum}
+                rotatedNum={rotatedNum}
+                dropdownNum={index}
+                headerText={"Subtext"}
+                dropdownText={lor}
+              />
+            </Box>
           ))}
         </Flex>
       </Box>

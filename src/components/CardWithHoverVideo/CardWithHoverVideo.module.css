@@ -7,3 +7,14 @@
     transition: .2s ease-in-out;
 
 }
+
+#cardVideo{
+    opacity: 0;
+    
+    
+}
+
+#cardVideo:hover{
+    transition: .2s ease-in-out;
+    opacity: 1;
+}

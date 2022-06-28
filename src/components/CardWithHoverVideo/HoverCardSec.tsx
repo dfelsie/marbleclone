@@ -12,11 +12,11 @@ import {
 import CardWithHoverVideo from "./CardWithHoverVideo";
 
 type Props = {};
-export default function HoverCardHero({}: Props) {
+export default function HoverCardSec({}: Props) {
   return (
-    <Center flexDir={"column"}>
+    <Center flexDir={"column"} w={"100%"} h={"1000px"}>
       <Heading>Card Hero</Heading>
-      <Flex>
+      <Flex w={"95%"} justifyContent={"space-between"} flexGrow={1}>
         <CardWithHoverVideo />
         <CardWithHoverVideo />
         <CardWithHoverVideo />
