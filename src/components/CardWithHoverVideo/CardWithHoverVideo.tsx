@@ -21,7 +21,13 @@ export default function CardWithHoverVideo({}: Props) {
       pos={"relative"}
       border={"1px solid white"}
     >
-      <Flex ml={"10%"} mt={"5%"} flexDir={"column"} zIndex={1}>
+      <Flex
+        ml={"10%"}
+        mt={"5%"}
+        flexDir={"column"}
+        zIndex={1}
+        borderRadius={"10px"}
+      >
         <Text textTransform={"uppercase"} color={"#9c9c9c"} fontSize={"14px"}>
           Card{" "}
         </Text>

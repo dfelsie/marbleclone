@@ -16,6 +16,8 @@ import DropdownTextSec from "../components/AniTestComponents/DropdownTextSec/Dro
 import DropDownTextSecHero from "../components/AniTestComponents/DropDownTextSecHero";
 import ChevronButton from "../components/AniTestComponents/ChevronButton/ChevronButton";
 import DropDownTextHeroWButton from "../components/AniTestComponents/DropDownTextHeroWButton";
+import CarouselSec from "../components/AniTestComponents/Carousel/CarouselSec";
+import MyFirstCarousel from "../components/AniTestComponents/Carousel/MyFirstCarousel";
 type Props = {};
 export default function Anitest({}: Props) {
   return (
@@ -26,7 +28,7 @@ export default function Anitest({}: Props) {
       bgColor={"#0e0e0e"}
       color={"white"}
     >
-      <HoverCardSec />
+      <MyFirstCarousel />
       {/*       
       <AniButtonTest />
       <DropDownTextSecHero />

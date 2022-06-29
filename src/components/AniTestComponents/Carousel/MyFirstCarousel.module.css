@@ -1,0 +1,14 @@
+.slide{
+    width: 150px;
+    height: 250px;
+    font-size: 48px;
+    background-color: cadetblue;
+}
+
+.carouselButton{
+    width: 75px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+
+}
