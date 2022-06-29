@@ -21,13 +21,7 @@ import MyFirstCarousel from "../components/AniTestComponents/Carousel/MyFirstCar
 type Props = {};
 export default function Anitest({}: Props) {
   return (
-    <Flex
-      h={"1000px"}
-      flexDir={"column"}
-      px={"2.5%"}
-      bgColor={"#0e0e0e"}
-      color={"white"}
-    >
+    <Flex h={"1000px"} flexDir={"column"} bgColor={"#0e0e0e"} color={"white"}>
       <MyFirstCarousel />
       {/*       
       <AniButtonTest />
