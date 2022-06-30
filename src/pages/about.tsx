@@ -10,10 +10,11 @@ import FirstVideoHero from "../components/FirstVideoHero";
 import ImgTopSec from "../components/AboutComponents/ImgTopSec";
 import HugeImageHero from "../components/AboutComponents/HugeImageHero";
 import LShapedTxtHero from "../components/AboutComponents/LShapedTxtHero";
-import MarqueeWCarouselHero from "../components/AboutComponents/MarqueeWCarouselHero";
+import MarqueeSec from "../components/AboutComponents/MarqueeWCarouselHero";
 import LShapedTxtHeroWButt from "../components/AboutComponents/LShapedTxtHeroWButt";
 import InfoSecDescHero from "../components/AboutComponents/InfoSecDescHero";
 import SwitchableTextHero from "../components/AboutComponents/SwitchableTextHero/SwitchableTextHero";
+import MyFirstCarousel from "../components/AniTestComponents/Carousel/MyFirstCarousel";
 
 const About = () => (
   <Container
@@ -27,7 +28,8 @@ const About = () => (
     <ImgTopSec />
     <HugeImageHero />
     <LShapedTxtHero />
-    <MarqueeWCarouselHero />
+    <MarqueeSec />
+    <MyFirstCarousel />
     <LShapedTxtHeroWButt />
     <InfoSecDescHero />
     <SwitchableTextHero />

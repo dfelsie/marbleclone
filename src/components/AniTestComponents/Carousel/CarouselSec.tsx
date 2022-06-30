@@ -9,8 +9,9 @@ import {
   ListItem,
   Button,
 } from "@chakra-ui/react";
+import MyFirstCarousel from "./MyFirstCarousel";
 
 type Props = {};
 export default function CarouselSec({}: Props) {
-  return <Box> CarouselSec </Box>;
+  return <MyFirstCarousel />;
 }

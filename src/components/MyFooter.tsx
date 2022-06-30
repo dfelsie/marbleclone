@@ -95,7 +95,12 @@ export default function MyFooter({}: Props) {
                   </ListItem>
                 ))}
               </List>
-              <Text mt={"100px"} fontSize={"16px"} color={"gray"}>
+              <Text
+                mt={"100px"}
+                fontSize={"16px"}
+                color={"gray"}
+                textDecoration={"underline"}
+              >
                 Privacy and Terms
               </Text>
             </Flex>

@@ -33,7 +33,7 @@ const images = [
 ];
 
 type Props = {};
-export default function MarqueeWCarouselHero({}: Props) {
+export default function MarqueeSec({}: Props) {
   return (
     <>
       {" "}
