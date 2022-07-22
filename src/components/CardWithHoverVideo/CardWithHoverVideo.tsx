@@ -37,11 +37,12 @@ export default function CardWithHoverVideo({}: Props) {
       <video
         id={styles.cardVideo}
         onMouseOver={(e) => {
-          e.target.play();
+          //e.target.play();
         }}
         onMouseOut={(e) => {
-          e.target.pause();
+          /*           e.target.pause();
           e.target.currentTime = 0;
+ */
         }}
         style={{
           position: "absolute",
@@ -50,6 +51,7 @@ export default function CardWithHoverVideo({}: Props) {
           width: "100%",
           height: "100%",
           objectFit: "cover",
+          zIndex: 5,
         }}
         muted
         loop

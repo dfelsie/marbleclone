@@ -49,7 +49,7 @@ export default function DropdownTextSecWButton({
           {headerText}
         </Text>
         <Box mt={"45px"}>
-          <Text fontSize={"1.1rem"} color={"lightgray"}>
+          <Text fontSize={"1.1rem"} color={"darkgray"}>
             {dropdownText}
           </Text>
         </Box>

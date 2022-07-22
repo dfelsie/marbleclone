@@ -41,10 +41,10 @@ export default function MarqueeSec({}: Props) {
         <Text
           fontWeight={"extrabold"}
           textTransform={"uppercase"}
-          fontSize={"8rem"}
+          fontSize={"6rem"}
           color={"lightgray"}
         >
-          Hello Marquee!
+          Info Below
         </Text>
       </Marquee>
       <br />

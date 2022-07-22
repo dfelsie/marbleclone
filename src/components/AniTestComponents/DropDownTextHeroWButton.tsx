@@ -57,7 +57,7 @@ export default function DropDownTextHeroWButton({ bgColor, textColor }: Props) {
                 setRotatedNum={setRotatedNum}
                 rotatedNum={rotatedNum}
                 dropdownNum={index}
-                headerText={"Subtext"}
+                headerText={"Subtext " + `${index}`}
                 dropdownText={lor}
               />
             </Box>

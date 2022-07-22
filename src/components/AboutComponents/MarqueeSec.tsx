@@ -43,7 +43,7 @@ export default function MarqueeSec({}: Props) {
           fontSize={"8rem"}
           color={"lightgray"}
         >
-          Hello Marquee!
+          More Info
         </Text>
       </Marquee>
     </>
