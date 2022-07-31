@@ -18,6 +18,7 @@ export default function FirstVideoHero({}: Props) {
         style={{ width: "100%", height: "100%", objectFit: "cover" }}
         muted
         loop
+        autoPlay
         src="/assets/videos/fancymarbvid.mp4"
       />{" "}
       <Box w={"100%"} pos={"absolute"} top={"20%"} h={"100%"}>

@@ -35,6 +35,7 @@ export default function CardWithHoverVideo({}: Props) {
       </Flex>
 
       <video
+        autoPlay
         id={styles.cardVideo}
         onMouseOver={(e) => {
           //e.target.play();
